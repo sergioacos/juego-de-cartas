@@ -11,7 +11,6 @@ class Baraja():
                 raise Exception(" Carta existente")
         self.mazo.append(carta)
     def Barajar(self):
-        #copia= list(self.mazo)
         random.shuffle(self.mazo)
     def Siguiente_carta(self):
         for x in (self.mazo):
